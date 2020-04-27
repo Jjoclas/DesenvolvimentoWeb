@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarefa 2 CSS</title>
+    <style>
+        .nav-globo{
+            background-color: #f3f3f3;
+            height: 44px;
+        }
+        .nav-globo li{
+            padding-right: 5px;
+            display: inline-block;
+        }
+        .ul-globo{
+            float: left;
+        }
+        .ul-site{
+            float: right;
+        }
+        .nav-esporte{
+            background-color: #3b9c01;
+        }
+        .nav-esporte li{
+            display: inline-block;
+            height: 50px;
+            color: white;
+        }
+        .titulo-nav{
+            position: absolute;
+            transform: translate(40vw, -70px);
+            color: white;
+        }
+        main{
+            margin-left: 10vw;
+            margin-right: 10vw;
+        }
+        article, aside{
+            display: inline;
+        }
+        article{
+            float: left;
+        }
+        h1{
+            text-transform: uppercase;
+        }
+        table{
+            font-size: 12px;
+        }
+        .cabecalho-tabela{
+            background-color: #f2f2f2;
+            text-transform: uppercase;
+        }
+        td:nth-child(even) {
+            background: #f4f4f4;
+        }
+        aside{
+            float: right;
+        }
+        .titulo-rodada{
+            border:2px solid #f2f2f2;
+            border-left: none;
+            border-right: none;
+        }
+        ul{
+            list-style-type: none;
+        }
+        .ul-jogos div{
+            display: inline;
+            padding: 20px;
+            border-bottom: 1px solid #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav-globo">
+            <ul class="ul-globo">
+                <li>globo.com</li>
+                <li>g1</li>
+                <li>globoesporte</li>
+                <li>gshow</li>
+                <li>videos</li>
+            </ul>
+            <ul class="ul-site">
+                <li>assine ja</li>
+                <li>minha conta</li>
+                <li>e-mail</li>
+                <li>entrar</li>
+            </ul>
+        </nav>
+        <nav class="nav-esporte">
+            <ul>
+                <li>menu</li>
+                <li>ge</li>
+                <li>escudo</li>
+            </ul>
+            <h1 class="titulo-nav">brasileirão serie a</h1>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1 class="titulo-tabela">tabela</h1>
+            <table>
+                <thead class="cabecalho-tabela">
+                    <tr>
+                        <td>classificaçao</td>
+                        <td>p</td>
+                        <td>j</td>
+                        <td>v</td>
+                        <td>e</td>
+                        <td>d</td>
+                        <td>gp</td>
+                        <td>gc</td>
+                        <td>sg</td>
+                        <td>%</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>cruzeiro</td>
+                        <td>100</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>gremio</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>internacional</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>luziense</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>atletico</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <aside>
+            <h1>jogos</h1>
+            <div class="titulo-rodada">rodada</div>
+            <ul class="ul-jogos">
+                <li>
+                    <div>time1</div>
+                    <div>x</div>
+                    <div>time2</div>
+                </li>
+                <li>
+                    <div>time1</div>
+                    <div>x</div>
+                    <div>time2</div>
+                </li>
+                <li>
+                    <div>time1</div>
+                    <div>x</div>
+                    <div>time2</div>
+                </li>
+                <li>
+                    <div>time1</div>
+                    <div>x</div>
+                    <div>time2</div>
+                </li>
+                <li>
+                    <div>time1</div>
+                    <div>x</div>
+                    <div>time2</div>
+                </li>
+            </ul>
+        </aside>
+    </main>
+</body>
+</html>
