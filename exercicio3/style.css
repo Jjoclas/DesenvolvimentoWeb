@@ -1,0 +1,85 @@
+body{
+    height: 100vh;
+    margin: 0px;
+    overflow: hidden;
+}
+.nav-sites{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    height: 5vh;
+}
+.nav-sites ul{
+    display: inline-flex;
+    position: absolute;
+    top: auto;
+    left: 5px;
+}
+.nav-sites li{
+    padding-right: 10px;
+    list-style-type: none;
+}
+.nav-sites h3{
+    display: inline-flex;
+    text-align: center;
+    margin: auto;
+}
+.nav-page{
+    background-color: navy;
+    border-top:4px solid grey;
+    border-bottom: 4px solid grey;
+    color: white;
+    height: 7vh;
+}
+.nav-page ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0px;
+}
+.nav-page li{
+    padding: 20px;
+}
+.nav-page li[aria-selected=true]{
+    background-color: turquoise;
+}
+div{
+    display: flex;
+    height: 80vh;
+}
+main{
+    float: left;
+    margin: 20px;
+    margin-right: 40px;
+    border: 15px solid  rgb(165, 156, 156);
+    border-left: 25px solid rgb(165, 156, 156);
+    border-top: 25px solid rgb(165, 156, 156);
+    background-color: rgba(211, 211, 211, 0.74);
+}
+.titulo-site{
+    color: lightskyblue;
+    text-align: center;
+    font-size: 50px;
+}
+article{
+    display: flex;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+article p{
+    text-align: center;
+    padding: 20px;
+
+}
+aside{
+    float: right;
+    background-color: navy;
+    width: 200vw;
+    color: lightblue;
+}
+footer{
+    height: 6vw;
+    background-color: black;
+    color: white;
+}
